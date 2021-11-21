@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title-block {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), #009643), url(/picture/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.banner-text {
+  text-align: center;
+  padding: 160px;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  padding: 10px;
+  border: white solid 10px;
+  border-radius: 15px;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+.banner-text p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #212222;
+  justify-content: center;
+}
+
+.orange {
+  color: #FF4500;
+}
+
+.banner-text img {
+  width: 200px;
+}
+
+.title-text {}
+
+@media screen and (max-width: 770px) {
+  .banner-text h1 {
+    font-size: 44px;
+    justify-content: center;
+
+  }
+
+  .banner-text p {
+    font-size: 15px;
+
+  }
+}
